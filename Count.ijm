@@ -4,7 +4,7 @@ Count.ijm
 This macro is optimized for counting samples of RFTM incubated, NaOH digested, Lugol’s stained samples that have been imaged with high resolution color micrographs. Dimensional parameters are in “pixel” units
 youtube tutorial can be found here: https://www.youtube.com/watch?v=rvzBm7zp-44
 
-Marine Disease Ecology Laboratory, Smithsonian Environmental Research Center
+Coastal Disease Ecology Laboratory, Smithsonian Environmental Research Center
 December 2021
 License: BSD3
  
@@ -32,6 +32,7 @@ run("Convert to Mask");
 run("Watershed");
 run("Set Measurements...", "display redirect=None decimal=0");
 run("Analyze Particles...", "size=50-1000000 circularity=0.85-1.00 show=[Overlay Masks] summarize include");
+run("Overlay Options...", "stroke=cyan width=0 fill=cyan set apply");
 run("Magenta");
 run("Flatten");
 run("Copy");

@@ -1,6 +1,9 @@
 /*
 Count.ijm
 
+Citation: Vaillancourt, T.A., Coastal Disease Ecology Laboratory, Smithsonian Environmental Research Center, 
+https://github.com/SERCCoastalDisease/Protocols/blob/main/Count.ijm, 2022
+
 This macro is optimized for counting samples of RFTM/ARFTM incubated, NaOH digested, Lugol’s stained samples that have been imaged with high resolution color micrographs. Dimensional parameters are in “pixel” units
 youtube tutorial can be found here: https://www.youtube.com/watch?v=rvzBm7zp-44
 
